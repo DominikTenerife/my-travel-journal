@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Inter', sans-serif;
+   color: #2B283A;
+   font-size: 10.24px
+}
+
+img {
+    
+    width: 200px;
+    border-radius: 5px;
+    
+}
+
+
+h2 {
+
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+color: #2B283A;
+margin-top: 0;
+margin-bottom: 1em
+    
+}
+
+span {
+font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+}
+
+.header {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    background-color: #F55A5A;
+    gap: 10px;
+    justify-content: center;
+    color: #FFFFFF;
+    padding:5px;
+    margin-bottom: 1em;
+    
+}
+
+.icon {
+    width: 24px;
+    
+    
+}
+
+.card {
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+    
+}
+
+.card-content {
+    max-width: 350px;
+}
+
+.location {
+    display:flex;
+    font-size: 10px;
+    align-items: center;
+    gap: 5px;
+}
+
+.location > h3 {
+line-height: 12px;
+letter-spacing: 0.17em;
+color: #2B283A;
+font-weight: 400;
+}
+
+.pin-icon {
+    width: 7px;
+    height: 9.5px;
+}
+
+.link {
+    color: #918E9B;
+    margin-left: 10px;
+}
+
+.description {
+    line-height: 150%;
+}
